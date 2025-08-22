@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6; /* "line-height" aumenta o espaçamento entre as linhas */
+    margin: 20px;
+    background: linear-gradient(to top, #b71e1e, #ff8a8a);  /* "linear-gradient" pra cor ir mudando gradualmente/mesclar */
+    /* background: radial-gradient(circle, red, #fff); | "radial-gradient(circle" para mudar a gradualmente em formato circular, como o sol */
+    /* background: conic-gradient(red, #fff, #6e1313); | "conic-gradient" para mudar de cor gradualmente como a planificação de um cone */
+}
+h1{
+    text-align: center;
+    text-transform: uppercase; /* "text-transform" para mudar o caps lock das letras */
+    letter-spacing: 20px;  /* "letter-spacing" para controlar o espaçamento entre as letras */
+}
+
+/* LINKS - Estados e pseudo-classes */
+a {
+    text-decoration: none; /* "text-decoration: none" para tirar a linha que fica embaixo do link/sublinhado */
+    transition: all 0.3s ease; /* "transition: all" para animação suave */
+}
+
+/* Estado/cor do link não visitado */
+a:link {
+    color: rgb(255, 193, 193);
+}
+
+/* Estado/cor do link visitado */
+a:visited {
+    color: rgb(126, 5, 5);
+}
+
+/* "a:hover" para quando o mouse estiver em cima do link mudar de cor */
+a:hover {
+    /* color: #ff0000; | Cor da letra */
+    background-color: #ff0000; /* Cor de fundo da palavra */
+    padding: 5px;  /* "padding" para movimentar a cor de fundo */
+    border-radius: 30px;  /* "border-radius" para arredondar as bordas */
+}
+
+/* Estilo da classe link-topo */
+.link-topo {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: red;
+        color:#ffffff !important;
+        padding: 10px;
+        border-radius: 50%;
+}
+
+.link-topo:hover {
+    background-color: red;
+    border-radius: 50%;
+}

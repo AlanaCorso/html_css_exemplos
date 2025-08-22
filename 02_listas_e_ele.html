@@ -5,14 +5,34 @@
     <title>Listas com CSS Interno</title>
     <style>
         /* CSS Interno: estilos dentro da tag <style> */
-
-
-        /* Digitação (Aqui) */
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(199, 140, 255);
+            margin: 20px;
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+            border-bottom: 5px solid purple;
+        }
+        h2{
+            color: rgb(102, 0, 198);
+            background-color: rgb(212, 171, 251);
+        }
+        /* Estilo das listas (ul) */
+        ul {
+            background-color: rgb(107, 68, 144);
+            padding: 20px;
+            border-left: 4px solid rgb(81, 1, 74); 
+            margin-left: 150px; /* "margin" é espaço externo */
+            padding-left: 100px; /* "padding" é espaço interno */
+            margin-top: 100px;
+        }
+    
 
     </style>
 </head>
 <body>
-    <h1>Diferentes Tipos de Listas com CSS</h1>
+    <h1 style="color: rgb(255, 255, 255);">Diferentes Tipos de Listas com CSS</h1>
     
     <h2>Lista de Compras (Não Numerada)</h2>
     <ul>
